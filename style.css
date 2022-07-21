@@ -1,0 +1,279 @@
+
+/* #productsListDiv{
+    margin: 0 auto;
+    display: inline-flex;
+    flex-direction: row;
+    width: 250px;
+    max-height: 500px;
+
+
+} */
+
+#indexBody{
+    /* background: url(./fotot/food.jpg);
+    background-attachment: fixed; */
+    /* background-color: #b9e1ee; */
+}
+
+:root{
+
+}
+
+#product{
+    border: 2px solid coral;
+    width: 90%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    /* background: linear-gradient(white, rgb(232, 187, 153)); */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#product img{
+    margin: 0;
+    border-radius:15px;
+
+}
+
+.productName{
+    color: #000000;
+    text-align: center;
+}
+
+.productDescription{
+    width: 250px;
+    flex-wrap: wrap;
+    margin: 0 0 0 0;
+    box-sizing: border-box;
+}   
+
+#productContainer{
+    margin: 0 0 0 0;
+}
+
+#menuTitle{
+    background-color: lightgray;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 2px solid black;
+}
+
+.kategoriaProdukteve{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    background-color: coral;
+    padding: 20px;
+}
+.kategoriaProdukteve a{
+    text-decoration: none;
+    color: white;
+    height: 100%;
+}
+
+.priceNoVat{
+    color: red;
+    text-decoration: underline;
+}
+.priceVat{
+    color: green;
+    text-decoration: underline;
+}
+#productQt{
+    color: blue;
+    text-decoration: underline;
+
+}
+.addToCartBtn{
+    background-color: rgb(111, 226, 107);
+    color: black;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.addToCartBtn:hover{
+    background-color: rgb(37, 132, 2);
+    color: white;
+
+}
+
+#itq{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+    position: relative;
+}
+
+#containerProducts{
+    display: flex;
+    background-color: lightgray;
+    border-radius: 20px;
+    max-width: 1400px;
+    /* overflow-wrap: break-word; */
+    margin: 0 auto;
+    flex-wrap: wrap;
+    opacity: 0.92;
+    /* background: url(./fotot/food.jpg);
+    background-attachment: fixed; */
+}
+
+
+
+#productsPutInCart{
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+}
+#removeItemButton{
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row:hover{
+    background-color: lightgray;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+
+#options {
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+}
+#categoryButton{
+    width: 200px;
+    height: 50px;
+}
+
+#filterInput{
+    width: 50%;
+    margin: 0 auto;
+    height: 40px;
+}
+
+#numberOfCartProducts{
+    color: white;
+    position: relative;
+    font-size: large;
+    top: -20px;
+    right: 3.1%;
+}
+
+
+

@@ -1,0 +1,170 @@
+[
+    {
+      "id": 1,
+      "created": "2022-01-20T15:26:24.8060538",
+      "modified": "2022-01-20T15:26:24.8060538",
+      "name": "Hot Drinks",
+      "imageUrl": "https://i.ibb.co/bBfcrvB/hot-beverages.jpg",
+      "products": [
+        {
+          "productId": 1,
+          "created": "2022-01-20T15:26:48",
+          "modified": "2022-05-16T17:04:55.0534869",
+          "name": "Caffee",
+          "qt": 100,
+          "sellingPriceWithVat": 50,
+          "sellingPriceNoVat": 41,
+          "vat": 18,
+          "notes": null,
+          "imageUrl": "https://i.ibb.co/7CgLDgm/hot-coffee.jpg"
+        },
+        {
+          "productId": 2,
+          "created": "2022-01-20T15:26:48",
+          "modified": "2022-05-16T17:04:55.0534869",
+          "name": "Tea",
+          "qt": 50,
+          "sellingPriceWithVat": 50,
+          "sellingPriceNoVat": 41,
+          "vat": 18,
+          "notes": "Green Tea, Ginger Tea, Lemon Tea, Black Tea",
+          "imageUrl": "https://i.ibb.co/9NjnmnF/hot-green-tea.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "created": "2022-01-20T15:26:24.8060538",
+      "modified": "2022-01-20T15:26:24.8060538",
+      "name": "Cold Drinks",
+      "imageUrl": "https://i.ibb.co/zNBPM3y/cold-beverages.jpg",
+      "products": [
+        {
+          "productId": 3,
+          "created": "2022-01-20T15:26:48",
+          "modified": "2022-05-16T17:04:55.0534869",
+          "name": "Water",
+          "qt": 1000,
+          "sellingPriceWithVat": 50,
+          "sellingPriceNoVat": 47.5,
+          "vat": 5,
+          "notes": null,
+          "imageUrl": "https://i.ibb.co/1dYSGry/water.jpg"
+        },
+        {
+          "productId": 4,
+          "created": "2022-01-20T15:26:48",
+          "modified": "2022-05-16T17:04:55.0534869",
+          "name": "Coca Cola",
+          "qt": 1000,
+          "sellingPriceWithVat": 70,
+          "sellingPriceNoVat": 57.4,
+          "vat": 18,
+          "notes": null,
+          "imageUrl": "https://i.ibb.co/0sPr3q6/cola.jpg"
+        },
+        {
+          "productId": 5,
+          "created": "2022-01-20T15:26:48",
+          "modified": "2022-05-16T17:04:55.0534869",
+          "name": "Schweppes",
+          "qt": 500,
+          "sellingPriceWithVat": 70,
+          "sellingPriceNoVat": 57.4,
+          "vat": 18,
+          "notes": "Schweppes Lemon, Schweppes Tonic, Schweppes Orange",
+          "imageUrl": "https://i.ibb.co/Btd0rFc/tonic.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "created": "2022-01-20T15:26:24.8060538",
+      "modified": "2022-01-20T15:26:24.8060538",
+      "name": "Fast food",
+      "imageUrl": "https://i.ibb.co/stD3pjZ/fast-food-menu.webp",
+      "products": [
+        {
+          "productId": 6,
+          "created": "2022-01-20T15:26:48",
+          "modified": "2022-05-16T17:04:55.0534869",
+          "name": "Classic burger",
+          "qt": 1000,
+          "sellingPriceWithVat": 150,
+          "sellingPriceNoVat": 123,
+          "vat": 18,
+          "notes": "Beef, Classic Souce, Tomato, Pickles",
+          "imageUrl": "https://i.ibb.co/6D56MvR/burger.jpg"
+        },
+        {
+          "productId": 7,
+          "created": "2022-01-20T15:26:48",
+          "modified": "2022-05-16T17:04:55.0534869",
+          "name": "Double burger",
+          "qt": 1000,
+          "sellingPriceWithVat": 250,
+          "sellingPriceNoVat": 205,
+          "vat": 18,
+          "notes": "Double beef, Cheese, Salsa, Tomato, Pickles",
+          "imageUrl": "https://i.ibb.co/bsb53sH/double-burger.jpg"
+        },
+        {
+          "productId": 8,
+          "created": "2022-01-20T15:26:48",
+          "modified": "2022-05-16T17:04:55.0534869",
+          "name": "Toast",
+          "qt": 500,
+          "sellingPriceWithVat": 60,
+          "sellingPriceNoVat": 49.2,
+          "vat": 18,
+          "notes": "Salami, Sausage",
+          "imageUrl": "https://i.ibb.co/X2CgHKm/sandwich.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "created": "2022-01-20T15:26:24.8060538",
+      "modified": "2022-01-20T15:26:24.8060538",
+      "name": "Breakfast",
+      "imageUrl": "https://i.ibb.co/mBGJ3DD/breakfast.jpg",
+      "products": [
+        {
+          "productId": 9,
+          "created": "2022-01-20T15:26:48",
+          "modified": "2022-05-16T17:04:55.0534869",
+          "name": "English Breakfast",
+          "qt": 1000,
+          "sellingPriceWithVat": 170,
+          "sellingPriceNoVat": 139.4,
+          "vat": 18,
+          "notes": "Eggs, Sausage, Tomatoes, Cheese",
+          "imageUrl": "https://i.ibb.co/SxjMPr4/english-breakfast.jpg"
+        },
+        {
+          "productId": 10,
+          "created": "2022-01-20T15:26:48",
+          "modified": "2022-05-16T17:04:55.0534869",
+          "name": "Our Breakfast",
+          "qt": 1000,
+          "sellingPriceWithVat": 220,
+          "sellingPriceNoVat": 180.4,
+          "vat": 18,
+          "notes": "Eggs, Olives, Pickles, Cheese, Jam, Avocado",
+          "imageUrl": "https://i.ibb.co/XW8f2DK/our-breakfast.jpg"
+        },
+        {
+          "productId": 11,
+          "created": "2022-01-20T15:26:48",
+          "modified": "2022-05-16T17:04:55.0534869",
+          "name": "Pancakes",
+          "qt": 500,
+          "sellingPriceWithVat": 160,
+          "sellingPriceNoVat": 131.2,
+          "vat": 18,
+          "notes": "Maple Syrup, Blueberry, Chocolate Hazelnut",
+          "imageUrl": "https://i.ibb.co/NsdFv5M/pancakes.jpg"
+        }
+      ]
+    }
+  ]
