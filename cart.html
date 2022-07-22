@@ -54,7 +54,15 @@
             <strong class="cart-total-title">Total no Vat: </strong>
             <span class="cart-total-price" id="cart-total-price-noVat"> 0.00 den </span> 
         </div>
-        <button class="btn btn-primary btn-purchase" id="orderBtn" onclick="order()" type="button">Order now</button>
+        <button  class="btn btn-primary btn-purchase" id="orderBtn"  type="button" onclick="Swal.fire(
+            'Order successfully placed!',
+            'Thank you',
+            'success',
+            localStorage.clear(),
+            setInterval(function end(){
+                 document.location.reload() 
+                }, 3000)
+            )">Order now</button>
     </section>
 
 
@@ -70,6 +78,9 @@
     <script src="products.json"></script>
     <script src="./cart.js"></script>
     <!-- <script src="./changeFile.js"></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.3.4/dist/sweetalert2.all.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 </body>
 </html>
